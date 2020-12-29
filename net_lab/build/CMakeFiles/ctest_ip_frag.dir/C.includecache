@@ -60,25 +60,25 @@ stdint.h
 config.h
 .././include/config.h
 
-/home/parallels/Desktop/net_test/net_lab/src/ip.c
+/home/parallels/Desktop/net_lab/src/ip.c
 ip.h
-/home/parallels/Desktop/net_test/net_lab/src/ip.h
+/home/parallels/Desktop/net_lab/src/ip.h
 arp.h
-/home/parallels/Desktop/net_test/net_lab/src/arp.h
+/home/parallels/Desktop/net_lab/src/arp.h
 icmp.h
-/home/parallels/Desktop/net_test/net_lab/src/icmp.h
+/home/parallels/Desktop/net_lab/src/icmp.h
 udp.h
-/home/parallels/Desktop/net_test/net_lab/src/udp.h
+/home/parallels/Desktop/net_lab/src/udp.h
 config.h
-/home/parallels/Desktop/net_test/net_lab/src/config.h
+/home/parallels/Desktop/net_lab/src/config.h
 string.h
 -
 stdlib.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/src/utils.c
+/home/parallels/Desktop/net_lab/src/utils.c
 utils.h
-/home/parallels/Desktop/net_test/net_lab/src/utils.h
+/home/parallels/Desktop/net_lab/src/utils.h
 stdio.h
 -
 stdlib.h
@@ -86,37 +86,37 @@ stdlib.h
 string.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/arp.c
+/home/parallels/Desktop/net_lab/test/faker/arp.c
 arp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/arp.h
+/home/parallels/Desktop/net_lab/test/faker/arp.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/utils.h
+/home/parallels/Desktop/net_lab/test/faker/utils.h
 ethernet.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/ethernet.h
+/home/parallels/Desktop/net_lab/test/faker/ethernet.h
 config.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/config.h
+/home/parallels/Desktop/net_lab/test/faker/config.h
 string.h
 -
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/icmp.c
+/home/parallels/Desktop/net_lab/test/faker/icmp.c
 icmp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/icmp.h
+/home/parallels/Desktop/net_lab/test/faker/icmp.h
 ip.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/ip.h
+/home/parallels/Desktop/net_lab/test/faker/ip.h
 string.h
 -
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/udp.c
+/home/parallels/Desktop/net_lab/test/faker/udp.c
 udp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/udp.h
+/home/parallels/Desktop/net_lab/test/faker/udp.h
 ip.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/ip.h
+/home/parallels/Desktop/net_lab/test/faker/ip.h
 icmp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/icmp.h
+/home/parallels/Desktop/net_lab/test/faker/icmp.h
 stdlib.h
 -
 string.h
@@ -124,7 +124,7 @@ string.h
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/global.c
+/home/parallels/Desktop/net_lab/test/global.c
 stdio.h
 -
 stdlib.h
@@ -136,19 +136,19 @@ string.h
 pcap.h
 -
 arp.h
-/home/parallels/Desktop/net_test/net_lab/test/arp.h
+/home/parallels/Desktop/net_lab/test/arp.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/test/utils.h
+/home/parallels/Desktop/net_lab/test/utils.h
 
-/home/parallels/Desktop/net_test/net_lab/test/ip_frag_test.c
+/home/parallels/Desktop/net_lab/test/ip_frag_test.c
 stdio.h
 -
 string.h
 -
 net.h
-/home/parallels/Desktop/net_test/net_lab/test/net.h
+/home/parallels/Desktop/net_lab/test/net.h
 ip.h
-/home/parallels/Desktop/net_test/net_lab/test/ip.h
+/home/parallels/Desktop/net_lab/test/ip.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/test/utils.h
+/home/parallels/Desktop/net_lab/test/utils.h
 

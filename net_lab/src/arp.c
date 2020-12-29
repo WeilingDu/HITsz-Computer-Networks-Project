@@ -174,15 +174,16 @@ void arp_in(buf_t *buf)
 	if ((opcode == ARP_REQUEST) && (!memcmp(net_if_ip, arp->target_ip, NET_IP_LEN))) 
 	{// 该报文是请求本机MAC地址的ARP请求报文
 		// 调用buf_init初始化一个buf
-		buf_init(&rxbuf, sizeof(arp_pkt_t)); 
+		buf_t send_buf;
+		buf_init(&send_buf, sizeof(arp_pkt_t)); 
 		// 填写ARP报头
 		arp_pkt_t packet;
 		packet = arp_init_pkt;
 		packet.opcode = swap16(ARP_REPLY);
 		memcpy(packet.target_ip, arp->sender_ip, NET_IP_LEN);
 		memcpy(packet.target_mac, arp->sender_mac, NET_MAC_LEN);
-		memcpy(rxbuf.data, &packet, sizeof(arp_pkt_t));
-		ethernet_out(&rxbuf, arp->sender_mac, NET_PROTOCOL_ARP);
+		memcpy(send_buf.data, &packet, sizeof(arp_pkt_t));
+		ethernet_out(&send_buf, arp->sender_mac, NET_PROTOCOL_ARP);
 	}
 
 	
@@ -213,7 +214,8 @@ void arp_out(buf_t *buf, uint8_t *ip, net_protocol_t protocol)
 	}
 	// 如果没有找到对应的MAC地址
 	// 将来自IP层的数据包缓存到arp_buf中
-	memcpy(&(arp_buf.buf), buf, sizeof(buf_t));
+	buf_copy(&(arp_buf.buf), buf);
+	memcpy(arp_buf.buf.data, buf->data, buf->len);
 	arp_buf.valid = 1;
 	arp_buf.protocol = protocol;
 	memcpy(arp_buf.ip, ip, NET_IP_LEN);

@@ -7,7 +7,7 @@ CMakeFiles/ctest_arp.dir/src/arp.c.o
  .././include/ethernet.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/src/arp.c
+ /home/parallels/Desktop/net_lab/src/arp.c
 CMakeFiles/ctest_arp.dir/src/ethernet.c.o
  .././include/arp.h
  .././include/config.h
@@ -16,11 +16,11 @@ CMakeFiles/ctest_arp.dir/src/ethernet.c.o
  .././include/ip.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/src/ethernet.c
+ /home/parallels/Desktop/net_lab/src/ethernet.c
 CMakeFiles/ctest_arp.dir/src/utils.c.o
  .././include/config.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/src/utils.c
+ /home/parallels/Desktop/net_lab/src/utils.c
 CMakeFiles/ctest_arp.dir/test/arp_test.c.o
  .././include/arp.h
  .././include/config.h
@@ -28,11 +28,11 @@ CMakeFiles/ctest_arp.dir/test/arp_test.c.o
  .././include/ethernet.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/arp_test.c
+ /home/parallels/Desktop/net_lab/test/arp_test.c
 CMakeFiles/ctest_arp.dir/test/faker/driver.c.o
  .././include/config.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c
+ /home/parallels/Desktop/net_lab/test/faker/driver.c
 CMakeFiles/ctest_arp.dir/test/faker/ip.c.o
  .././include/arp.h
  .././include/config.h
@@ -41,10 +41,10 @@ CMakeFiles/ctest_arp.dir/test/faker/ip.c.o
  .././include/net.h
  .././include/udp.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/faker/ip.c
+ /home/parallels/Desktop/net_lab/test/faker/ip.c
 CMakeFiles/ctest_arp.dir/test/global.c.o
  .././include/arp.h
  .././include/config.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/global.c
+ /home/parallels/Desktop/net_lab/test/global.c

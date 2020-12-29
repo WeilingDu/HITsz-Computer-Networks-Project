@@ -145,18 +145,19 @@ void ip_out(buf_t *buf, uint8_t *ip, net_protocol_t protocol)
 
 	uint16_t len_sum = 0;
 
+	buf_t send_buf;
 	while (buf->len > 1480)
 	{
-		buf_init(&rxbuf, 1480);  // 初始化txbuf，长度为以太网帧的最大包长（1500字节 - ip包头长度）
-		memcpy(rxbuf.data, buf->data, 1480);
-		ip_fragment_out(&rxbuf, ip, protocol, ip_id, len_sum/IP_HDR_OFFSET_PER_BYTE, 1);
+		buf_init(&send_buf, 1480);  // 初始化buf，长度为以太网帧的最大包长（1500字节 - ip包头长度）
+		memcpy(send_buf.data, buf->data, 1480);
+		ip_fragment_out(&send_buf, ip, protocol, ip_id, len_sum/IP_HDR_OFFSET_PER_BYTE, 1);
 		buf_remove_header(buf, 1480);
 		len_sum += 1480;
 	}
 	// 最后的一个分片小于或等于以太网帧的最大包长时
-	buf_init(&rxbuf, buf->len);
-	memcpy(rxbuf.data, buf->data, buf->len);
-	ip_fragment_out(&rxbuf, ip, protocol, ip_id, len_sum/IP_HDR_OFFSET_PER_BYTE, 0);  // 最后一个分片的MF = 0
+	buf_init(&send_buf, buf->len);
+	memcpy(send_buf.data, buf->data, buf->len);
+	ip_fragment_out(&send_buf, ip, protocol, ip_id, len_sum/IP_HDR_OFFSET_PER_BYTE, 0);  // 最后一个分片的MF = 0
 	ip_id += 1;
 	return;
 }

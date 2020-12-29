@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-gcc-7 -g  -rdynamic CMakeFiles/main.dir/src/arp.c.o CMakeFiles/main.dir/src/driver.c.o CMakeFiles/main.dir/src/ethernet.c.o CMakeFiles/main.dir/src/icmp.c.o CMakeFiles/main.dir/src/ip.c.o CMakeFiles/main.dir/src/main.c.o CMakeFiles/main.dir/src/net.c.o CMakeFiles/main.dir/src/udp.c.o CMakeFiles/main.dir/src/utils.c.o  -o ../test/main -lpcap 

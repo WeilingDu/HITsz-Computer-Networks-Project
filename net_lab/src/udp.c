@@ -39,6 +39,9 @@ static uint16_t udp_checksum(buf_t *buf, uint8_t *src_ip, uint8_t *dest_ip)
     memcpy(udp_preso_header.dest_ip, dest_ip, 4);
     udp_preso_header.placeholder = 0;
     udp_preso_header.protocol = NET_PROTOCOL_UDP;
+    // begin for debug
+    uint16_t total_len = buf->len - 12;
+    // end for debug
     udp_preso_header.total_len = swap16(buf->len - 12);
     memcpy(buf->data, &udp_preso_header, sizeof(udp_peso_hdr_t));
     uint16_t checksum = checksum16((uint16_t *)buf->data, buf->len);
@@ -71,11 +74,17 @@ static uint16_t udp_checksum(buf_t *buf, uint8_t *src_ip, uint8_t *dest_ip)
 void udp_in(buf_t *buf, uint8_t *src_ip)
 {
     // 检查UDP报头长度
-    if (swap16(buf->len) < 8)
+    if (buf->len < 8)
     {// 若长度小于8字节，不处理
         return;
     }
     udp_hdr_t *udp = (udp_hdr_t *)buf->data;
+    // begin for debug
+    uint16_t src_port = swap16(udp->src_port);  // 源端口
+    uint16_t dest_port = swap16(udp->dest_port); // 目标端口
+    uint16_t total_len = swap16(udp->total_len); // 整个数据包的长度
+    // end for debug
+    // 32062
     uint16_t checksum = swap16(udp->checksum);  // 缓存UDP首部的checksum
     udp->checksum = swap16(0);  // 将UDP首都的checksum字段清零
     if (checksum != udp_checksum(buf, src_ip, net_if_ip))
@@ -116,13 +125,14 @@ void udp_out(buf_t *buf, uint16_t src_port, uint8_t *dest_ip, uint16_t dest_port
     udp_hdr_t header;
     header.src_port = swap16(src_port);
     header.dest_port = swap16(dest_port);
-    header.total_len = swap16(buf->len + 8);
+    header.total_len = swap16(buf->len);
     header.checksum = swap16(0);
-    memcpy(buf, &header, sizeof(udp_hdr_t));
+    memcpy(buf->data, &header, sizeof(udp_hdr_t));
     uint16_t checksum = udp_checksum(buf, net_if_ip, dest_ip);
     header.checksum = swap16(checksum);
-    memcpy(buf, &header, sizeof(udp_hdr_t));
+    memcpy(buf->data, &header, sizeof(udp_hdr_t));
     ip_out(buf, dest_ip, NET_PROTOCOL_UDP);
+    return;
 }
 
 /**

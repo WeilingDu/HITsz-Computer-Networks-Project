@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/parallels/Desktop/net_test/net_lab/src/arp.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/src/arp.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/src/ethernet.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/src/ethernet.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/src/utils.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/src/utils.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/test/arp_test.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/test/arp_test.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/test/faker/driver.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/test/faker/driver.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/test/faker/ip.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/test/faker/ip.c.o"
-  "/home/parallels/Desktop/net_test/net_lab/test/global.c" "/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_arp.dir/test/global.c.o"
+  "/home/parallels/Desktop/net_lab/src/arp.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/src/arp.c.o"
+  "/home/parallels/Desktop/net_lab/src/ethernet.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/src/ethernet.c.o"
+  "/home/parallels/Desktop/net_lab/src/utils.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/src/utils.c.o"
+  "/home/parallels/Desktop/net_lab/test/arp_test.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/test/arp_test.c.o"
+  "/home/parallels/Desktop/net_lab/test/faker/driver.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/test/faker/driver.c.o"
+  "/home/parallels/Desktop/net_lab/test/faker/ip.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/test/faker/ip.c.o"
+  "/home/parallels/Desktop/net_lab/test/global.c" "/home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_arp.dir/test/global.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

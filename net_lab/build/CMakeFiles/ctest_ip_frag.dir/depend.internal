@@ -9,25 +9,25 @@ CMakeFiles/ctest_ip_frag.dir/src/ip.c.o
  .././include/net.h
  .././include/udp.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/src/ip.c
+ /home/parallels/Desktop/net_lab/src/ip.c
 CMakeFiles/ctest_ip_frag.dir/src/utils.c.o
  .././include/config.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/src/utils.c
+ /home/parallels/Desktop/net_lab/src/utils.c
 CMakeFiles/ctest_ip_frag.dir/test/faker/arp.c.o
  .././include/arp.h
  .././include/config.h
  .././include/ethernet.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/faker/arp.c
+ /home/parallels/Desktop/net_lab/test/faker/arp.c
 CMakeFiles/ctest_ip_frag.dir/test/faker/icmp.c.o
  .././include/config.h
  .././include/icmp.h
  .././include/ip.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/faker/icmp.c
+ /home/parallels/Desktop/net_lab/test/faker/icmp.c
 CMakeFiles/ctest_ip_frag.dir/test/faker/udp.c.o
  .././include/config.h
  .././include/icmp.h
@@ -35,16 +35,16 @@ CMakeFiles/ctest_ip_frag.dir/test/faker/udp.c.o
  .././include/net.h
  .././include/udp.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/faker/udp.c
+ /home/parallels/Desktop/net_lab/test/faker/udp.c
 CMakeFiles/ctest_ip_frag.dir/test/global.c.o
  .././include/arp.h
  .././include/config.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/global.c
+ /home/parallels/Desktop/net_lab/test/global.c
 CMakeFiles/ctest_ip_frag.dir/test/ip_frag_test.c.o
  .././include/config.h
  .././include/ip.h
  .././include/net.h
  .././include/utils.h
- /home/parallels/Desktop/net_test/net_lab/test/ip_frag_test.c
+ /home/parallels/Desktop/net_lab/test/ip_frag_test.c

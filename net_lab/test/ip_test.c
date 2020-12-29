@@ -21,12 +21,9 @@ char* print_mac(uint8_t *mac);
 uint8_t my_mac[] = DRIVER_IF_MAC;
 uint8_t boardcast_mac[] = {0xff,0xff,0xff,0xff,0xff,0xff};
 
-
 int check_log();
 int check_pcap();
 void log_tab_buf();
-
-
 
 buf_t buf;
 int main(){

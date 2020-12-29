@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/Desktop/net_test/net_lab
+CMAKE_SOURCE_DIR = /home/parallels/Desktop/net_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/Desktop/net_test/net_lab/build
+CMAKE_BINARY_DIR = /home/parallels/Desktop/net_lab/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ctest_eth_out.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ctest_eth_out.dir/flags.make
 
 CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o: ../test/eth_out_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/eth_out_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o   -c /home/parallels/Desktop/net_lab/test/eth_out_test.c
 
 CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/eth_out_test.c > CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/eth_out_test.c > CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.i
 
 CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/eth_out_test.c -o CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/eth_out_test.c -o CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.s
 
 CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ctest_eth_out.dir/test/eth_out_test.c.o.provides.build: CMakeFiles/ct
 
 CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o: ../src/ethernet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/ethernet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o   -c /home/parallels/Desktop/net_lab/src/ethernet.c
 
 CMakeFiles/ctest_eth_out.dir/src/ethernet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/src/ethernet.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/ethernet.c > CMakeFiles/ctest_eth_out.dir/src/ethernet.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/ethernet.c > CMakeFiles/ctest_eth_out.dir/src/ethernet.c.i
 
 CMakeFiles/ctest_eth_out.dir/src/ethernet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/src/ethernet.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/ethernet.c -o CMakeFiles/ctest_eth_out.dir/src/ethernet.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/ethernet.c -o CMakeFiles/ctest_eth_out.dir/src/ethernet.c.s
 
 CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ctest_eth_out.dir/src/ethernet.c.o.provides.build: CMakeFiles/ctest_e
 
 CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o: ../test/faker/arp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/faker/arp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o   -c /home/parallels/Desktop/net_lab/test/faker/arp.c
 
 CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/faker/arp.c > CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/faker/arp.c > CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.i
 
 CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/faker/arp.c -o CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/faker/arp.c -o CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.s
 
 CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ctest_eth_out.dir/test/faker/arp.c.o.provides.build: CMakeFiles/ctest
 
 CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o: ../test/faker/ip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/faker/ip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o   -c /home/parallels/Desktop/net_lab/test/faker/ip.c
 
 CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/faker/ip.c > CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/faker/ip.c > CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.i
 
 CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/faker/ip.c -o CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/faker/ip.c -o CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.s
 
 CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ctest_eth_out.dir/test/faker/ip.c.o.provides.build: CMakeFiles/ctest_
 
 CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o: ../test/faker/driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o   -c /home/parallels/Desktop/net_lab/test/faker/driver.c
 
 CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c > CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/faker/driver.c > CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.i
 
 CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c -o CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/faker/driver.c -o CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.s
 
 CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ctest_eth_out.dir/test/faker/driver.c.o.provides.build: CMakeFiles/ct
 
 CMakeFiles/ctest_eth_out.dir/test/global.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/test/global.c.o: ../test/global.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ctest_eth_out.dir/test/global.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/global.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/global.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ctest_eth_out.dir/test/global.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/test/global.c.o   -c /home/parallels/Desktop/net_lab/test/global.c
 
 CMakeFiles/ctest_eth_out.dir/test/global.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/test/global.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/global.c > CMakeFiles/ctest_eth_out.dir/test/global.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/global.c > CMakeFiles/ctest_eth_out.dir/test/global.c.i
 
 CMakeFiles/ctest_eth_out.dir/test/global.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/test/global.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/global.c -o CMakeFiles/ctest_eth_out.dir/test/global.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/global.c -o CMakeFiles/ctest_eth_out.dir/test/global.c.s
 
 CMakeFiles/ctest_eth_out.dir/test/global.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ctest_eth_out.dir/test/global.c.o.provides.build: CMakeFiles/ctest_et
 
 CMakeFiles/ctest_eth_out.dir/src/utils.c.o: CMakeFiles/ctest_eth_out.dir/flags.make
 CMakeFiles/ctest_eth_out.dir/src/utils.c.o: ../src/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ctest_eth_out.dir/src/utils.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/src/utils.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ctest_eth_out.dir/src/utils.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_eth_out.dir/src/utils.c.o   -c /home/parallels/Desktop/net_lab/src/utils.c
 
 CMakeFiles/ctest_eth_out.dir/src/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_eth_out.dir/src/utils.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/utils.c > CMakeFiles/ctest_eth_out.dir/src/utils.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/utils.c > CMakeFiles/ctest_eth_out.dir/src/utils.c.i
 
 CMakeFiles/ctest_eth_out.dir/src/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_eth_out.dir/src/utils.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/utils.c -o CMakeFiles/ctest_eth_out.dir/src/utils.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/utils.c -o CMakeFiles/ctest_eth_out.dir/src/utils.c.s
 
 CMakeFiles/ctest_eth_out.dir/src/utils.c.o.requires:
 
@@ -247,7 +247,7 @@ ctest_eth_out_EXTERNAL_OBJECTS =
 ../test/ctest_eth_out: CMakeFiles/ctest_eth_out.dir/src/utils.c.o
 ../test/ctest_eth_out: CMakeFiles/ctest_eth_out.dir/build.make
 ../test/ctest_eth_out: CMakeFiles/ctest_eth_out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable ../test/ctest_eth_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable ../test/ctest_eth_out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctest_eth_out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -270,6 +270,6 @@ CMakeFiles/ctest_eth_out.dir/clean:
 .PHONY : CMakeFiles/ctest_eth_out.dir/clean
 
 CMakeFiles/ctest_eth_out.dir/depend:
-	cd /home/parallels/Desktop/net_test/net_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/net_test/net_lab /home/parallels/Desktop/net_test/net_lab /home/parallels/Desktop/net_test/net_lab/build /home/parallels/Desktop/net_test/net_lab/build /home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_eth_out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/Desktop/net_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/net_lab /home/parallels/Desktop/net_lab /home/parallels/Desktop/net_lab/build /home/parallels/Desktop/net_lab/build /home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_eth_out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ctest_eth_out.dir/depend
 

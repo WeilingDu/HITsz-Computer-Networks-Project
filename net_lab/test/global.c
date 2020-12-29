@@ -31,7 +31,7 @@ FILE *demo_log;
 extern arp_entry_t arp_table[ARP_MAX_ENTRY];
 extern arp_buf_t arp_buf;
 
-char* state[16] = {
+static char* state[16] = {
         [ARP_PENDING] "pending",
         [ARP_VALID]   "valid  ",
         [ARP_INVALID] "invalid",

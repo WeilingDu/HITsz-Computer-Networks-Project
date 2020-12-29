@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/Desktop/net_test/net_lab
+CMAKE_SOURCE_DIR = /home/parallels/Desktop/net_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/Desktop/net_test/net_lab/build
+CMAKE_BINARY_DIR = /home/parallels/Desktop/net_lab/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ctest_icmp.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ctest_icmp.dir/flags.make
 
 CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o: ../test/icmp_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/icmp_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o   -c /home/parallels/Desktop/net_lab/test/icmp_test.c
 
 CMakeFiles/ctest_icmp.dir/test/icmp_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/test/icmp_test.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/icmp_test.c > CMakeFiles/ctest_icmp.dir/test/icmp_test.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/icmp_test.c > CMakeFiles/ctest_icmp.dir/test/icmp_test.c.i
 
 CMakeFiles/ctest_icmp.dir/test/icmp_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/test/icmp_test.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/icmp_test.c -o CMakeFiles/ctest_icmp.dir/test/icmp_test.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/icmp_test.c -o CMakeFiles/ctest_icmp.dir/test/icmp_test.c.s
 
 CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ctest_icmp.dir/test/icmp_test.c.o.provides.build: CMakeFiles/ctest_ic
 
 CMakeFiles/ctest_icmp.dir/src/ethernet.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/src/ethernet.c.o: ../src/ethernet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ctest_icmp.dir/src/ethernet.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/ethernet.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/ethernet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ctest_icmp.dir/src/ethernet.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/ethernet.c.o   -c /home/parallels/Desktop/net_lab/src/ethernet.c
 
 CMakeFiles/ctest_icmp.dir/src/ethernet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/src/ethernet.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/ethernet.c > CMakeFiles/ctest_icmp.dir/src/ethernet.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/ethernet.c > CMakeFiles/ctest_icmp.dir/src/ethernet.c.i
 
 CMakeFiles/ctest_icmp.dir/src/ethernet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/src/ethernet.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/ethernet.c -o CMakeFiles/ctest_icmp.dir/src/ethernet.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/ethernet.c -o CMakeFiles/ctest_icmp.dir/src/ethernet.c.s
 
 CMakeFiles/ctest_icmp.dir/src/ethernet.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ctest_icmp.dir/src/ethernet.c.o.provides.build: CMakeFiles/ctest_icmp
 
 CMakeFiles/ctest_icmp.dir/src/arp.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/src/arp.c.o: ../src/arp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ctest_icmp.dir/src/arp.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/arp.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/arp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ctest_icmp.dir/src/arp.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/arp.c.o   -c /home/parallels/Desktop/net_lab/src/arp.c
 
 CMakeFiles/ctest_icmp.dir/src/arp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/src/arp.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/arp.c > CMakeFiles/ctest_icmp.dir/src/arp.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/arp.c > CMakeFiles/ctest_icmp.dir/src/arp.c.i
 
 CMakeFiles/ctest_icmp.dir/src/arp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/src/arp.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/arp.c -o CMakeFiles/ctest_icmp.dir/src/arp.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/arp.c -o CMakeFiles/ctest_icmp.dir/src/arp.c.s
 
 CMakeFiles/ctest_icmp.dir/src/arp.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ctest_icmp.dir/src/arp.c.o.provides.build: CMakeFiles/ctest_icmp.dir/
 
 CMakeFiles/ctest_icmp.dir/src/ip.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/src/ip.c.o: ../src/ip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ctest_icmp.dir/src/ip.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/ip.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/ip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ctest_icmp.dir/src/ip.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/ip.c.o   -c /home/parallels/Desktop/net_lab/src/ip.c
 
 CMakeFiles/ctest_icmp.dir/src/ip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/src/ip.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/ip.c > CMakeFiles/ctest_icmp.dir/src/ip.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/ip.c > CMakeFiles/ctest_icmp.dir/src/ip.c.i
 
 CMakeFiles/ctest_icmp.dir/src/ip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/src/ip.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/ip.c -o CMakeFiles/ctest_icmp.dir/src/ip.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/ip.c -o CMakeFiles/ctest_icmp.dir/src/ip.c.s
 
 CMakeFiles/ctest_icmp.dir/src/ip.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ctest_icmp.dir/src/ip.c.o.provides.build: CMakeFiles/ctest_icmp.dir/s
 
 CMakeFiles/ctest_icmp.dir/src/icmp.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/src/icmp.c.o: ../src/icmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ctest_icmp.dir/src/icmp.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/icmp.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/icmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ctest_icmp.dir/src/icmp.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/icmp.c.o   -c /home/parallels/Desktop/net_lab/src/icmp.c
 
 CMakeFiles/ctest_icmp.dir/src/icmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/src/icmp.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/icmp.c > CMakeFiles/ctest_icmp.dir/src/icmp.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/icmp.c > CMakeFiles/ctest_icmp.dir/src/icmp.c.i
 
 CMakeFiles/ctest_icmp.dir/src/icmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/src/icmp.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/icmp.c -o CMakeFiles/ctest_icmp.dir/src/icmp.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/icmp.c -o CMakeFiles/ctest_icmp.dir/src/icmp.c.s
 
 CMakeFiles/ctest_icmp.dir/src/icmp.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ctest_icmp.dir/src/icmp.c.o.provides.build: CMakeFiles/ctest_icmp.dir
 
 CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o: ../test/faker/udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/faker/udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o   -c /home/parallels/Desktop/net_lab/test/faker/udp.c
 
 CMakeFiles/ctest_icmp.dir/test/faker/udp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/test/faker/udp.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/faker/udp.c > CMakeFiles/ctest_icmp.dir/test/faker/udp.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/faker/udp.c > CMakeFiles/ctest_icmp.dir/test/faker/udp.c.i
 
 CMakeFiles/ctest_icmp.dir/test/faker/udp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/test/faker/udp.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/faker/udp.c -o CMakeFiles/ctest_icmp.dir/test/faker/udp.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/faker/udp.c -o CMakeFiles/ctest_icmp.dir/test/faker/udp.c.s
 
 CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ctest_icmp.dir/test/faker/udp.c.o.provides.build: CMakeFiles/ctest_ic
 
 CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o: ../test/faker/driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o   -c /home/parallels/Desktop/net_lab/test/faker/driver.c
 
 CMakeFiles/ctest_icmp.dir/test/faker/driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/test/faker/driver.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c > CMakeFiles/ctest_icmp.dir/test/faker/driver.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/faker/driver.c > CMakeFiles/ctest_icmp.dir/test/faker/driver.c.i
 
 CMakeFiles/ctest_icmp.dir/test/faker/driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/test/faker/driver.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/faker/driver.c -o CMakeFiles/ctest_icmp.dir/test/faker/driver.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/faker/driver.c -o CMakeFiles/ctest_icmp.dir/test/faker/driver.c.s
 
 CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ctest_icmp.dir/test/faker/driver.c.o.provides.build: CMakeFiles/ctest
 
 CMakeFiles/ctest_icmp.dir/test/global.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/test/global.c.o: ../test/global.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ctest_icmp.dir/test/global.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/global.c.o   -c /home/parallels/Desktop/net_test/net_lab/test/global.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ctest_icmp.dir/test/global.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/test/global.c.o   -c /home/parallels/Desktop/net_lab/test/global.c
 
 CMakeFiles/ctest_icmp.dir/test/global.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/test/global.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/test/global.c > CMakeFiles/ctest_icmp.dir/test/global.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/test/global.c > CMakeFiles/ctest_icmp.dir/test/global.c.i
 
 CMakeFiles/ctest_icmp.dir/test/global.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/test/global.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/test/global.c -o CMakeFiles/ctest_icmp.dir/test/global.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/test/global.c -o CMakeFiles/ctest_icmp.dir/test/global.c.s
 
 CMakeFiles/ctest_icmp.dir/test/global.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ctest_icmp.dir/test/global.c.o.provides.build: CMakeFiles/ctest_icmp.
 
 CMakeFiles/ctest_icmp.dir/src/utils.c.o: CMakeFiles/ctest_icmp.dir/flags.make
 CMakeFiles/ctest_icmp.dir/src/utils.c.o: ../src/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ctest_icmp.dir/src/utils.c.o"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/utils.c.o   -c /home/parallels/Desktop/net_test/net_lab/src/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ctest_icmp.dir/src/utils.c.o"
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest_icmp.dir/src/utils.c.o   -c /home/parallels/Desktop/net_lab/src/utils.c
 
 CMakeFiles/ctest_icmp.dir/src/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest_icmp.dir/src/utils.c.i"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_test/net_lab/src/utils.c > CMakeFiles/ctest_icmp.dir/src/utils.c.i
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Desktop/net_lab/src/utils.c > CMakeFiles/ctest_icmp.dir/src/utils.c.i
 
 CMakeFiles/ctest_icmp.dir/src/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest_icmp.dir/src/utils.c.s"
-	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_test/net_lab/src/utils.c -o CMakeFiles/ctest_icmp.dir/src/utils.c.s
+	/usr/bin/x86_64-linux-gnu-gcc-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Desktop/net_lab/src/utils.c -o CMakeFiles/ctest_icmp.dir/src/utils.c.s
 
 CMakeFiles/ctest_icmp.dir/src/utils.c.o.requires:
 
@@ -299,7 +299,7 @@ ctest_icmp_EXTERNAL_OBJECTS =
 ../test/ctest_icmp: CMakeFiles/ctest_icmp.dir/src/utils.c.o
 ../test/ctest_icmp: CMakeFiles/ctest_icmp.dir/build.make
 ../test/ctest_icmp: CMakeFiles/ctest_icmp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/net_test/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable ../test/ctest_icmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/net_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable ../test/ctest_icmp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctest_icmp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -324,6 +324,6 @@ CMakeFiles/ctest_icmp.dir/clean:
 .PHONY : CMakeFiles/ctest_icmp.dir/clean
 
 CMakeFiles/ctest_icmp.dir/depend:
-	cd /home/parallels/Desktop/net_test/net_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/net_test/net_lab /home/parallels/Desktop/net_test/net_lab /home/parallels/Desktop/net_test/net_lab/build /home/parallels/Desktop/net_test/net_lab/build /home/parallels/Desktop/net_test/net_lab/build/CMakeFiles/ctest_icmp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/Desktop/net_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/net_lab /home/parallels/Desktop/net_lab /home/parallels/Desktop/net_lab/build /home/parallels/Desktop/net_lab/build /home/parallels/Desktop/net_lab/build/CMakeFiles/ctest_icmp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ctest_icmp.dir/depend
 

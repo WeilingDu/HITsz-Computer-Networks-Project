@@ -64,25 +64,25 @@ stdint.h
 config.h
 .././include/config.h
 
-/home/parallels/Desktop/net_test/net_lab/src/ethernet.c
+/home/parallels/Desktop/net_lab/src/ethernet.c
 ethernet.h
-/home/parallels/Desktop/net_test/net_lab/src/ethernet.h
+/home/parallels/Desktop/net_lab/src/ethernet.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/src/utils.h
+/home/parallels/Desktop/net_lab/src/utils.h
 driver.h
-/home/parallels/Desktop/net_test/net_lab/src/driver.h
+/home/parallels/Desktop/net_lab/src/driver.h
 arp.h
-/home/parallels/Desktop/net_test/net_lab/src/arp.h
+/home/parallels/Desktop/net_lab/src/arp.h
 ip.h
-/home/parallels/Desktop/net_test/net_lab/src/ip.h
+/home/parallels/Desktop/net_lab/src/ip.h
 string.h
 -
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/src/utils.c
+/home/parallels/Desktop/net_lab/src/utils.c
 utils.h
-/home/parallels/Desktop/net_test/net_lab/src/utils.h
+/home/parallels/Desktop/net_lab/src/utils.h
 stdio.h
 -
 stdlib.h
@@ -90,31 +90,31 @@ stdlib.h
 string.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/eth_out_test.c
+/home/parallels/Desktop/net_lab/test/eth_out_test.c
 stdio.h
 -
 string.h
 -
 driver.h
-/home/parallels/Desktop/net_test/net_lab/test/driver.h
+/home/parallels/Desktop/net_lab/test/driver.h
 ethernet.h
-/home/parallels/Desktop/net_test/net_lab/test/ethernet.h
+/home/parallels/Desktop/net_lab/test/ethernet.h
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/arp.c
+/home/parallels/Desktop/net_lab/test/faker/arp.c
 arp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/arp.h
+/home/parallels/Desktop/net_lab/test/faker/arp.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/utils.h
+/home/parallels/Desktop/net_lab/test/faker/utils.h
 ethernet.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/ethernet.h
+/home/parallels/Desktop/net_lab/test/faker/ethernet.h
 config.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/config.h
+/home/parallels/Desktop/net_lab/test/faker/config.h
 string.h
 -
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/driver.c
+/home/parallels/Desktop/net_lab/test/faker/driver.c
 pcap.h
 -
 string.h
@@ -122,23 +122,23 @@ string.h
 utils.h
 -
 config.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/config.h
+/home/parallels/Desktop/net_lab/test/faker/config.h
 
-/home/parallels/Desktop/net_test/net_lab/test/faker/ip.c
+/home/parallels/Desktop/net_lab/test/faker/ip.c
 ip.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/ip.h
+/home/parallels/Desktop/net_lab/test/faker/ip.h
 arp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/arp.h
+/home/parallels/Desktop/net_lab/test/faker/arp.h
 icmp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/icmp.h
+/home/parallels/Desktop/net_lab/test/faker/icmp.h
 udp.h
-/home/parallels/Desktop/net_test/net_lab/test/faker/udp.h
+/home/parallels/Desktop/net_lab/test/faker/udp.h
 string.h
 -
 stdio.h
 -
 
-/home/parallels/Desktop/net_test/net_lab/test/global.c
+/home/parallels/Desktop/net_lab/test/global.c
 stdio.h
 -
 stdlib.h
@@ -150,7 +150,7 @@ string.h
 pcap.h
 -
 arp.h
-/home/parallels/Desktop/net_test/net_lab/test/arp.h
+/home/parallels/Desktop/net_lab/test/arp.h
 utils.h
-/home/parallels/Desktop/net_test/net_lab/test/utils.h
+/home/parallels/Desktop/net_lab/test/utils.h
 

@@ -21,7 +21,6 @@ void ethernet_in(buf_t *buf)
 	type_p = (uint16_t *)(buf->data + 12);   // 得到以太网数据帧的协议类型
 	type = swap16(*type_p);  // 大小端转换
 	buf_remove_header(buf, 14);  // 去掉以太网包头（长度14）
-	printf("%d", type);
 	switch (type)
 	{
 		// 如果是ARP协议数据包, 发送到arp层处理
@@ -43,28 +42,19 @@ void ethernet_in(buf_t *buf)
  *        添加完成后将以太网数据帧发送到驱动层
  * 
  * @param buf 要处理的数据包
- * @param mac 目标ip地址
+ * @param mac 目标mac地址
  * @param protocol 上层协议
  */
 void ethernet_out(buf_t *buf, const uint8_t *mac, net_protocol_t protocol)
 {
 	ether_hdr_t header;
-	uint8_t *p, *q;
-	uint8_t src_MAC[6] = DRIVER_IF_MAC;  // 设置源MAC地址，即本机的MAC地址
-	int i = 0;
-	for (i = 0; i < NET_MAC_LEN; i++)
-	{
-		header.src[i] = src_MAC[i];  // 设置包头的源MAC地址
-		header.dest[i] = mac[i];  // 设置包头的目的MAC地址
-	}
+	memcpy(header.dest, mac, NET_MAC_LEN);  // 设置包头的目的MAC地址
+	memcpy(header.src, net_if_mac, NET_MAC_LEN);  // 设置包头的源MAC地址
 	header.protocol = swap16(protocol);  // 设置包头的协议类型（注意大小端转换）
-	buf_add_header(buf, sizeof(header));  // 添加以太网包头
-	for (i = 0, p = (uint8_t *)&header, q = buf->data; i < sizeof(header); i++)
-	{
-		q[i] = p[i];
-	}
-	driver_send(buf);
 
+	buf_add_header(buf, sizeof(ether_hdr_t));  // 添加以太网包头
+	memcpy(buf->data, &header, sizeof(ether_hdr_t));
+	driver_send(buf);
 }
 
 /**

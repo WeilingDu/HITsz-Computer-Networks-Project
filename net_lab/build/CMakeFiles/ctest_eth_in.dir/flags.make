@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/parallels/Desktop/net_test/net_lab/./include -I/home/parallels/Desktop/net_test/net_lab/./pcap 
+C_INCLUDES = -I/home/parallels/Desktop/net_lab/./include -I/home/parallels/Desktop/net_lab/./pcap 
 
