@@ -13,11 +13,20 @@ def download_file(filename):
     data = 1
     while data:
         data = clientSocket.recv(1024)
-        data = data.decode()
-        # 创建文件，写入内容
-        f = open(filename, 'a+')
-        f.write(data)
-        f.close()
+        list = data.decode().split()
+        if len(list):
+            flag = list[0]
+            if flag == '1':
+                del list[0]
+                str = ' '
+                data = str.join(list)
+                # 创建文件，写入内容
+                f = open(filename, 'a+')
+                f.write(data)
+                f.close()
+            elif flag == '0':
+                print('Not found this file!')
+
     clientSocket.close()
     print('Download finished!\n')
 
@@ -30,7 +39,6 @@ def upload_file(filename):
     f = open(filename, "rb")
     outputdata += f.read().decode()
     f.close()
-    # for i in range(0, len(outputdata)):
     clientSocket.send(outputdata.encode())
     clientSocket.close()
     print('Upload finished!\n')

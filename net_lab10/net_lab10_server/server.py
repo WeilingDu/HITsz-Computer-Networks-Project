@@ -6,19 +6,17 @@ def server_process(connectionSocket):
     try:
         message = connectionSocket.recv(1024)
         message = message.decode()
-        print(message)
         list = message.split()  # 将数据用空格分开
         option = list[0]
         filename = list[1]
         if option == 'download':
+            outputdata = '1 '  # 表示有该文件
             f = open(filename, "rb")
-            outputdata = f.read()
-            outputdata = outputdata.decode()
-            print(outputdata)
+            outputdata += f.read().decode()
             f.close()
-            for i in range(0, len(outputdata)):
-                connectionSocket.send(outputdata[i].encode())
+            connectionSocket.send(outputdata.encode())
             connectionSocket.close()
+            print('thread id: ', threading.currentThread())
             print('Download finished!')
         elif option == 'upload':
             data = 1
@@ -34,7 +32,7 @@ def server_process(connectionSocket):
             print('Upload finished!')
     except IOError:
         # Send response message for file not found
-        outputdata = 'Not found this file!\r\n\r\n'
+        outputdata = '0 Not found this file!\r\n\r\n'
         # Close client socket
         for i in range(0, len(outputdata)):
             connectionSocket.send(outputdata[i].encode())
@@ -53,7 +51,6 @@ if __name__ == '__main__':
         # Establish the connection
         print('Ready to serve...')
         connectionSocket, addr = serverSocket.accept()
-        print(connectionSocket)
         thread = threading.Thread(target=server_process, args=(connectionSocket,))
         thread.start()
 
