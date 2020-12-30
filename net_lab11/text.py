@@ -10,9 +10,9 @@ endmsg = '\r\n.\r\n'
 mailserver = ('smtp.qq.com', 587)
 
 # Sender and reciever
-sender = '506271944@qq.com'
-senderpwd = 'dcccqynhzinqbgic'
-receiver = 'kairose_em@163.com'
+sender = '50627****@qq.com'
+senderpwd = 'dccc************'
+receiver = 'kairos****@163.com'
 
 # Auth information (Encode with base64)
 # 账户和密码需要经过base64编码加密
@@ -51,13 +51,13 @@ clientSocket.send(password)
 recv3 = clientSocket.recv(1024).decode()
 print('password: ', recv3)
 
-mailFrom = 'MAIL FROM: <506271944@qq.com>\r\n'
+mailFrom = 'MAIL FROM: <50627****@qq.com>\r\n'
 clientSocket.send(mailFrom.encode())
 recv4 = clientSocket.recv(1024).decode()
 print('mail from: ', recv4)
 
 # Send RCPT TO command and print server response.
-reptTo = 'RCPT TO: <kairose_em@163.com>\r\n'
+reptTo = 'RCPT TO: <kairos****@163.com>\r\n'
 clientSocket.send(reptTo.encode())
 recv5 = clientSocket.recv(1024).decode()
 print('rcpt to: ', recv5)

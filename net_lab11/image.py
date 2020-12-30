@@ -13,9 +13,9 @@ with open("networks.jpg", "rb") as f:
 mailserver = ('smtp.qq.com', 587)
 
 # Sender and reciever
-sender = '506271944@qq.com'
-senderpwd = 'dcccqynhzinqbgic'
-receiver = 'kairose_em@163.com'
+sender = '50627****@qq.com'
+senderpwd = 'dccc************'
+receiver = 'kairo****@163.com'
 
 # Auth information (Encode with base64)
 user = base64.b64encode(sender.encode()) + b'\r\n'
@@ -53,13 +53,13 @@ clientSocket.send(password)
 recv3 = clientSocket.recv(1024).decode()
 print('password: ', recv3)
 
-mailFrom = 'MAIL FROM: <506271944@qq.com>\r\n'
+mailFrom = 'MAIL FROM: <50627****@qq.com>\r\n'
 clientSocket.send(mailFrom.encode())
 recv4 = clientSocket.recv(1024).decode()
 print('mail from: ', recv4)
 
 # Send RCPT TO command and print server response.
-reptTo = 'RCPT TO: <kairose_em@163.com>\r\n'
+reptTo = 'RCPT TO: <kairos****@163.com>\r\n'
 clientSocket.send(reptTo.encode())
 recv5 = clientSocket.recv(1024).decode()
 print('rcpt to: ', recv5)
